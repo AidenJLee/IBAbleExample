@@ -15,6 +15,11 @@
 		2BD7FEAE1BC4DD2700F29E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD7FEAC1BC4DD2700F29E53 /* LaunchScreen.storyboard */; };
 		2BD7FEB91BC4DD2700F29E53 /* IBAbleExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEB81BC4DD2700F29E53 /* IBAbleExampleTests.m */; };
 		2BD7FEC41BC4DD2700F29E53 /* IBAbleExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEC31BC4DD2700F29E53 /* IBAbleExampleUITests.m */; };
+		2BD7FED51BC4DDA500F29E53 /* UIView+IBAble.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FED41BC4DDA500F29E53 /* UIView+IBAble.m */; settings = {ASSET_TAGS = (); }; };
+		2BD7FED91BC4DE6A00F29E53 /* IBAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FED81BC4DE6A00F29E53 /* IBAView.m */; settings = {ASSET_TAGS = (); }; };
+		2BD7FEDC1BC4DE7800F29E53 /* IBAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEDB1BC4DE7800F29E53 /* IBAButton.m */; settings = {ASSET_TAGS = (); }; };
+		2BD7FEDF1BC4DE9700F29E53 /* IBALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEDE1BC4DE9700F29E53 /* IBALabel.m */; settings = {ASSET_TAGS = (); }; };
+		2BD7FEE21BC4DEAD00F29E53 /* IBATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEE11BC4DEAD00F29E53 /* IBATextField.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		2BD7FEBF1BC4DD2700F29E53 /* IBAbleExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBAbleExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD7FEC31BC4DD2700F29E53 /* IBAbleExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBAbleExampleUITests.m; sourceTree = "<group>"; };
 		2BD7FEC51BC4DD2700F29E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD7FED31BC4DDA500F29E53 /* UIView+IBAble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBAble.h"; sourceTree = "<group>"; };
+		2BD7FED41BC4DDA500F29E53 /* UIView+IBAble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBAble.m"; sourceTree = "<group>"; };
+		2BD7FED71BC4DE6A00F29E53 /* IBAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBAView.h; sourceTree = "<group>"; };
+		2BD7FED81BC4DE6A00F29E53 /* IBAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBAView.m; sourceTree = "<group>"; };
+		2BD7FEDA1BC4DE7800F29E53 /* IBAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBAButton.h; sourceTree = "<group>"; };
+		2BD7FEDB1BC4DE7800F29E53 /* IBAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBAButton.m; sourceTree = "<group>"; };
+		2BD7FEDD1BC4DE9700F29E53 /* IBALabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBALabel.h; sourceTree = "<group>"; };
+		2BD7FEDE1BC4DE9700F29E53 /* IBALabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBALabel.m; sourceTree = "<group>"; };
+		2BD7FEE01BC4DEAD00F29E53 /* IBATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBATextField.h; sourceTree = "<group>"; };
+		2BD7FEE11BC4DEAD00F29E53 /* IBATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBATextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +122,7 @@
 				2BD7FEA51BC4DD2700F29E53 /* ViewController.m */,
 				2BD7FEA71BC4DD2700F29E53 /* Main.storyboard */,
 				2BD7FEAA1BC4DD2700F29E53 /* Assets.xcassets */,
+				2BD7FED11BC4DD4800F29E53 /* Library */,
 				2BD7FEAC1BC4DD2700F29E53 /* LaunchScreen.storyboard */,
 				2BD7FEAF1BC4DD2700F29E53 /* Info.plist */,
 				2BD7FE9E1BC4DD2700F29E53 /* Supporting Files */,
@@ -138,6 +154,39 @@
 				2BD7FEC51BC4DD2700F29E53 /* Info.plist */,
 			);
 			path = IBAbleExampleUITests;
+			sourceTree = "<group>";
+		};
+		2BD7FED11BC4DD4800F29E53 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7FED21BC4DD7400F29E53 /* IBInspectable */,
+				2BD7FED61BC4DE3600F29E53 /* ObjectExtension */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		2BD7FED21BC4DD7400F29E53 /* IBInspectable */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7FED31BC4DDA500F29E53 /* UIView+IBAble.h */,
+				2BD7FED41BC4DDA500F29E53 /* UIView+IBAble.m */,
+			);
+			path = IBInspectable;
+			sourceTree = "<group>";
+		};
+		2BD7FED61BC4DE3600F29E53 /* ObjectExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7FED71BC4DE6A00F29E53 /* IBAView.h */,
+				2BD7FED81BC4DE6A00F29E53 /* IBAView.m */,
+				2BD7FEDA1BC4DE7800F29E53 /* IBAButton.h */,
+				2BD7FEDB1BC4DE7800F29E53 /* IBAButton.m */,
+				2BD7FEDD1BC4DE9700F29E53 /* IBALabel.h */,
+				2BD7FEDE1BC4DE9700F29E53 /* IBALabel.m */,
+				2BD7FEE01BC4DEAD00F29E53 /* IBATextField.h */,
+				2BD7FEE11BC4DEAD00F29E53 /* IBATextField.m */,
+			);
+			path = ObjectExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD7FEDF1BC4DE9700F29E53 /* IBALabel.m in Sources */,
+				2BD7FEDC1BC4DE7800F29E53 /* IBAButton.m in Sources */,
 				2BD7FEA61BC4DD2700F29E53 /* ViewController.m in Sources */,
+				2BD7FED51BC4DDA500F29E53 /* UIView+IBAble.m in Sources */,
+				2BD7FED91BC4DE6A00F29E53 /* IBAView.m in Sources */,
 				2BD7FEA31BC4DD2700F29E53 /* AppDelegate.m in Sources */,
+				2BD7FEE21BC4DEAD00F29E53 /* IBATextField.m in Sources */,
 				2BD7FEA01BC4DD2700F29E53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

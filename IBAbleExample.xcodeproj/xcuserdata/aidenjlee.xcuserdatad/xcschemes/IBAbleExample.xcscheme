@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BD7FE9A1BC4DD2700F29E53"
+               BuildableName = "IBAbleExample.app"
+               BlueprintName = "IBAbleExample"
+               ReferencedContainer = "container:IBAbleExample.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BD7FEB31BC4DD2700F29E53"
+               BuildableName = "IBAbleExampleTests.xctest"
+               BlueprintName = "IBAbleExampleTests"
+               ReferencedContainer = "container:IBAbleExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BD7FEBE1BC4DD2700F29E53"
+               BuildableName = "IBAbleExampleUITests.xctest"
+               BlueprintName = "IBAbleExampleUITests"
+               ReferencedContainer = "container:IBAbleExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BD7FE9A1BC4DD2700F29E53"
+            BuildableName = "IBAbleExample.app"
+            BlueprintName = "IBAbleExample"
+            ReferencedContainer = "container:IBAbleExample.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BD7FE9A1BC4DD2700F29E53"
+            BuildableName = "IBAbleExample.app"
+            BlueprintName = "IBAbleExample"
+            ReferencedContainer = "container:IBAbleExample.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BD7FE9A1BC4DD2700F29E53"
+            BuildableName = "IBAbleExample.app"
+            BlueprintName = "IBAbleExample"
+            ReferencedContainer = "container:IBAbleExample.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
