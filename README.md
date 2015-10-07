@@ -10,7 +10,7 @@ targetView.attribute = multiplier * referenceView.attribute + constant
 attribute : top, left, bottom, right, width, height / leading, trailing, centerX, centerY, baseline
 
 
-### priority 
+### Priority 
 
 typedef float UILayoutPriority;
 // A required constraint.  Do not exceed this.
