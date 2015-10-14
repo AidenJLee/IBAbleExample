@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface IBAButton : UIButton
+
+@property (nonatomic, assign) IBInspectable BOOL lineTop;
+@property (nonatomic, assign) IBInspectable BOOL lineLeft;
+@property (nonatomic, assign) IBInspectable BOOL lineBottom;
+@property (nonatomic, assign) IBInspectable BOOL lineRight;
+
+@property (nonatomic, assign) IBInspectable CGFloat lineWidth;
+@property (nonatomic, strong) IBInspectable UIColor *lineColor;
 
 @end

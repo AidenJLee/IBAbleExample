@@ -19,7 +19,6 @@
 		2BD7FED91BC4DE6A00F29E53 /* IBAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FED81BC4DE6A00F29E53 /* IBAView.m */; settings = {ASSET_TAGS = (); }; };
 		2BD7FEDC1BC4DE7800F29E53 /* IBAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEDB1BC4DE7800F29E53 /* IBAButton.m */; settings = {ASSET_TAGS = (); }; };
 		2BD7FEDF1BC4DE9700F29E53 /* IBALabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEDE1BC4DE9700F29E53 /* IBALabel.m */; settings = {ASSET_TAGS = (); }; };
-		2BD7FEE21BC4DEAD00F29E53 /* IBATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7FEE11BC4DEAD00F29E53 /* IBATextField.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +63,6 @@
 		2BD7FEDB1BC4DE7800F29E53 /* IBAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBAButton.m; sourceTree = "<group>"; };
 		2BD7FEDD1BC4DE9700F29E53 /* IBALabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBALabel.h; sourceTree = "<group>"; };
 		2BD7FEDE1BC4DE9700F29E53 /* IBALabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBALabel.m; sourceTree = "<group>"; };
-		2BD7FEE01BC4DEAD00F29E53 /* IBATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBATextField.h; sourceTree = "<group>"; };
-		2BD7FEE11BC4DEAD00F29E53 /* IBATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBATextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,8 +180,6 @@
 				2BD7FEDB1BC4DE7800F29E53 /* IBAButton.m */,
 				2BD7FEDD1BC4DE9700F29E53 /* IBALabel.h */,
 				2BD7FEDE1BC4DE9700F29E53 /* IBALabel.m */,
-				2BD7FEE01BC4DEAD00F29E53 /* IBATextField.h */,
-				2BD7FEE11BC4DEAD00F29E53 /* IBATextField.m */,
 			);
 			path = ObjectExtension;
 			sourceTree = "<group>";
@@ -325,7 +320,6 @@
 				2BD7FED51BC4DDA500F29E53 /* UIView+IBAble.m in Sources */,
 				2BD7FED91BC4DE6A00F29E53 /* IBAView.m in Sources */,
 				2BD7FEA31BC4DD2700F29E53 /* AppDelegate.m in Sources */,
-				2BD7FEE21BC4DEAD00F29E53 /* IBATextField.m in Sources */,
 				2BD7FEA01BC4DD2700F29E53 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,6 +544,7 @@
 				2BD7FECA1BC4DD2700F29E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BD7FECB1BC4DD2700F29E53 /* Build configuration list for PBXNativeTarget "IBAbleExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +553,7 @@
 				2BD7FECD1BC4DD2700F29E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BD7FECE1BC4DD2700F29E53 /* Build configuration list for PBXNativeTarget "IBAbleExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +562,7 @@
 				2BD7FED01BC4DD2700F29E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
